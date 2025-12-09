@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taglyatelle - GitHub App</title>
+    <title>Home - taglyatelle</title>
+    <link rel="icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <a href="#section1" class="logo">Taglyatelle</a>
+        <div class="logo-container">
+            <img src="logo.png" alt="Taglyatelle Logo" class="logo-image">
+            <a href="#section1" class="logo">Taglyatelle</a>
+        </div>
         <div class="nav-links">
-            <a href="#section2">Showcase</a>
-            <a href="https://alexym1.github.io/taglyatelle/" target="_blank">Docs</a>
-            <a href="#section3">Prices</a>
-            <a href="#section4">Contact</a>
+            <a href="https://alexym1.github.io/taglyatelle/" target="_blank">API Reference</a>
         </div>
     </nav>
-
-    <!-- Navigation Dots -->
-    <!-- Removed: Full-page scroll behavior -->
 
     <!-- Main Container -->
     <div class="fullpage-container">
@@ -27,7 +25,7 @@
         <section class="section" id="section1">
             <div class="content">
                 <h1 class="hero-title">Taglyatelle</h1>
-                <p class="hero-subtitle">Delegate tasks to your AI agent across Git hosting services</p>
+                <p class="hero-subtitle">Delegate tasks to your AI agent on multiple Git hosting services</p>
                 <div class="button-group">
                     <a href="https://github.com/apps/taglyatelle" class="cta-button" target="_blank">Install Now</a>
                     <a href="https://github.com/alexym1/taglyatelle" class="github-button" target="_blank">
@@ -45,112 +43,6 @@
             </div>
         </section>
 
-        <!-- Section 2: Showcase -->
-        <section class="section" id="section2">
-            <div class="content">
-                <h2>Key Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🤖</div>
-                        <h3>AI-Powered Automation</h3>
-                        <p>Leverage advanced AI to automatically handle repetitive tasks and code reviews</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Lightning Fast</h3>
-                        <p>Process tasks in seconds with optimized performance and parallel execution</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔒</div>
-                        <h3>Secure & Private</h3>
-                        <p>Enterprise-grade security with end-to-end encryption for your code</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🎯</div>
-                        <h3>Smart Delegation</h3>
-                        <p>Intelligently route tasks to the right team members or AI agents</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📊</div>
-                        <h3>Analytics Dashboard</h3>
-                        <p>Track productivity metrics and gain insights into your workflow</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔄</div>
-                        <h3>Seamless Integration</h3>
-                        <p>Works with GitHub, GitLab, and other popular Git platforms</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 3: Prices -->
-        <section class="section pricing-section" id="section3">
-            <div class="content">
-                <h2>Simple, Transparent Pricing</h2>
-                <p class="subtitle">Choose the plan that fits your needs</p>
-                <div class="pricing-table">
-                    <div class="pricing-column free">
-                        <div class="plan-header">
-                            <h3>Free</h3>
-                            <div class="price">
-                                <span class="amount">$0</span>
-                                <span class="period">/month</span>
-                            </div>
-                        </div>
-                        <ul class="features-list">
-                            <li class="included">✓ Up to 3 repositories</li>
-                            <li class="included">✓ 50 AI tasks per month</li>
-                            <li class="included">✓ Basic analytics</li>
-                            <li class="included">✓ Community support</li>
-                            <li class="excluded">✗ Advanced AI models</li>
-                            <li class="excluded">✗ Priority support</li>
-                            <li class="excluded">✗ Custom workflows</li>
-                            <li class="excluded">✗ Team collaboration</li>
-                        </ul>
-                        <a href="https://github.com/apps/taglyatelle" class="plan-button" target="_blank">Get Started</a>
-                    </div>
-                    <div class="pricing-column paid featured">
-                        <div class="badge">Most Popular</div>
-                        <div class="plan-header">
-                            <h3>Pro</h3>
-                            <div class="price">
-                                <span class="amount">$29</span>
-                                <span class="period">/month</span>
-                            </div>
-                        </div>
-                        <ul class="features-list">
-                            <li class="included">✓ Unlimited repositories</li>
-                            <li class="included">✓ Unlimited AI tasks</li>
-                            <li class="included">✓ Advanced analytics & insights</li>
-                            <li class="included">✓ Priority email support</li>
-                            <li class="included">✓ GPT-4 & Claude AI models</li>
-                            <li class="included">✓ 24/7 priority support</li>
-                            <li class="included">✓ Custom workflow automation</li>
-                            <li class="included">✓ Team collaboration tools</li>
-                        </ul>
-                        <a href="https://github.com/apps/taglyatelle" class="plan-button primary" target="_blank">Start Free Trial</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 4: Get Started -->
-        <section class="section" id="section4">
-            <div class="content">
-                <h2>Ready to Get Started?</h2>
-                <p class="subtitle">Join developers who are already using Taglyatelle</p>
-                <div class="cta-buttons">
-                    <a href="https://github.com/apps/taglyatelle" class="cta-button primary" target="_blank">Install on GitHub</a>
-                    <a href="https://github.com/taglyatelle/taglyatelle" class="cta-button secondary" target="_blank">View Documentation</a>
-                </div>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Contact</a>
-                </div>
-            </div>
-        </section>
     </div>
 
     <script src="script.js"></script>
