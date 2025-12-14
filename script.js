@@ -26,9 +26,19 @@ async function fetchGitHubStars() {
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         fetchGitHubStars();
+        setVideoPlaybackSpeed();
     });
 } else {
     fetchGitHubStars();
+    setVideoPlaybackSpeed();
+}
+
+// Set video playback speed to 2x
+function setVideoPlaybackSpeed() {
+    const video = document.getElementById('demo-video');
+    if (video) {
+        video.playbackRate = 2.0;
+    }
 }
 
 // Handle window resize
